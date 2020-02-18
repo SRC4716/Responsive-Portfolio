@@ -1,0 +1,69 @@
+/*Colors and Decal*/
+header {
+    font-family: Georgia, times, 'Times new roman', serif;
+    background-color: #808080;
+    color: #ffffff;
+}
+
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: grey;
+    font-size: large;
+} 
+/*Colors and Decal*/
+
+.about-me {
+    background-color: #ffffff;
+    align-items: center;
+    margin-right: 240px;
+    margin-left: 240px;
+    display: grid;
+}
+
+.title-area {
+    display: grid;
+    grid-template-areas: left center right;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.title-area ul {
+    padding: 5px;
+    list-style: none;
+    grid-area: right;
+    margin-top: -30%;
+    margin-right: -50%;
+}
+
+.title-area a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hline {
+    color: black;
+
+}
+
+.title-area li {
+    display: inline;
+}
+
+
+
+#subject {
+    align-content: right;
+}
+/* I really don't understand how this is supposed to look, when I look at it in chrome it looks fine but I don't exactly have a keen eye for this. */
+@media screen and (max-width: 980px) {
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+}
